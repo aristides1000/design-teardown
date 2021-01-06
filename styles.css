@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  width: 1440px;
+}
+
+.nav-container {
+  background-color: #d33a2c;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-elements {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-element-7 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-input{
+  display: flex;
+  justify-content: space-around;
+}
