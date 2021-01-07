@@ -19,7 +19,7 @@
 }
 
 .catmenu{
-  width: 20%;
+  width: 12%;
 }
 
 body {
@@ -42,8 +42,9 @@ body {
 
 .navbar-element-7 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .search-input{
@@ -52,25 +53,27 @@ body {
   align-items: center;
 }
 
-ul {
+.navbar-elements-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+.navbar-element-a {
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
-body {
-  
+.logo-app {
+  width: 100%;
+}
+
+.navbar-element {
+  padding: 1rem 1.2rem;
+}
+
+.text-more-catmenu {
+  margin-right: 0.4rem;
 }
