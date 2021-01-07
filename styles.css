@@ -13,8 +13,13 @@
   box-sizing: inherit;
 }
 
-img {
+.logo-img {
+  padding-top: 2em;
   width: 100%;
+}
+
+.catmenu{
+  width: 20%;
 }
 
 body {
@@ -22,7 +27,7 @@ body {
 }
 
 .nav-container {
-  background-color: #d33a2c;
+  background-color: #484848;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,6 +37,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #ffffff;
 }
 
 .navbar-element-7 {
@@ -44,4 +50,23 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
