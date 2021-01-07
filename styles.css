@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +21,7 @@
 }
 
 .catmenu{
-  width: 12%;
+  min-width: 1.5rem;
 }
 
 body {
@@ -44,13 +46,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #333;
+  cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 .search-input{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 1rem;
+  background-color:#fff;
+  border-radius: 0.5rem;
 }
 
 .navbar-elements-ul {
@@ -67,13 +74,39 @@ body {
 }
 
 .logo-app {
-  width: 100%;
+  width: 3.35rem;
+  margin: 1rem 0rem;
 }
 
 .navbar-element {
   padding: 1rem 1.2rem;
+  margin-right: 1rem;
+}
+
+.navbar-element:hover {
+  background-color: #333;
+  border-radius: 0.5rem;
 }
 
 .text-more-catmenu {
   margin-right: 0.4rem;
+  text-decoration: none;
+  color: white;
+}
+
+.search-icon-margin {
+  margin-right: 0.5rem;
+}
+
+.nunito-font-family {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-none:focus {
+  outline: none;
 }
