@@ -25,19 +25,23 @@ body {
   background-color: #d33a2c;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .navbar-elements {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .navbar-element-7 {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .search-input{
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
