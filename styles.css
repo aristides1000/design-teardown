@@ -356,3 +356,20 @@ body {
 .flex-grow-7 {
   flex-grow: 7;
 }
+
+.first-card-eighth-section {
+  display: flex;
+  background-color: #999;
+  padding: 2rem;
+}
+
+.seconds-card-eighth-section {
+  display: flex;
+}
+
+.sons-seconds-card-eighth-section {
+  display: flex;
+  flex-grow: 1;
+  background-color: #ccc;
+  padding: 2rem;
+}
