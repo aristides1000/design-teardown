@@ -221,3 +221,21 @@ body {
   border-bottom: 10px solid gray;
   width: fit-content;
 }
+
+.second-section {
+  padding: 6rem;
+  background-color: lightgray;
+}
+
+.second-section article {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.second-section-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
