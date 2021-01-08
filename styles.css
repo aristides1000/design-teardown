@@ -20,7 +20,7 @@
   width: 100%;
 }
 
-.catmenu{
+.catmenu {
   min-width: 1.5rem;
 }
 
@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #ffffff;
+  color: white;
 }
 
 .navbar-element-7 {
@@ -51,12 +51,12 @@ body {
   border-radius: 0.5rem;
 }
 
-.search-input{
+.search-input {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1rem;
-  background-color:#fff;
+  background-color: white;
   border-radius: 0.5rem;
 }
 
@@ -75,7 +75,7 @@ body {
 
 .logo-app {
   width: 3.35rem;
-  margin: 1rem 0rem;
+  margin: 1rem 0;
 }
 
 .navbar-element {
@@ -137,10 +137,6 @@ body {
   align-items: center;
 }
 
-.firts-article-firts-section {
-  
-}
-
 .title-firts-article-firts-section {
   display: flex;
   align-items: center;
@@ -169,11 +165,11 @@ body {
 
 .paragraph-format {
   line-height: 2rem;
-  letter-spacing: 0.09rem
+  letter-spacing: 0.09rem;
 }
 
 .margin-height-1rem {
-  margin: 1rem 0rem;
+  margin: 1rem 0;
 }
 
 .font-size-3rem {
@@ -215,7 +211,6 @@ body {
 .latest-articles {
   margin: 6rem auto;
   border-bottom: 10px solid gray;
-  width: fit-content;
 }
 
 .second-section {
@@ -230,8 +225,7 @@ body {
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
-.second-section-row:after {
-  content: "";
+.second-section-row::after {
   display: table;
   clear: both;
 }
@@ -350,7 +344,7 @@ body {
   display: flex;
   background-color: #333;
   padding: 2rem;
-  color: #ffffff;
+  color: white;
 }
 
 .flex-grow-7 {
