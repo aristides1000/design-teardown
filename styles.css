@@ -345,3 +345,14 @@ body {
 .text-align-center {
   text-align: center;
 }
+
+.seventh-section {
+  display: flex;
+  background-color: #333;
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.flex-grow-7 {
+  flex-grow: 7;
+}
