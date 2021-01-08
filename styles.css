@@ -388,3 +388,7 @@ body {
 .margin-bottom-1rem {
   margin-bottom: 1rem;
 }
+
+.h6-font-size {
+  font-size: 0.01rem;
+}
