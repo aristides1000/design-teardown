@@ -25,7 +25,7 @@
 }
 
 body {
-  width: 1440px;
+  width: 100%;
 }
 
 .nav-container {
@@ -211,6 +211,7 @@ body {
 .latest-articles {
   margin: 6rem auto;
   border-bottom: 10px solid gray;
+  text-align: center;
 }
 
 .second-section {
