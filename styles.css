@@ -212,6 +212,7 @@ body {
   margin: 6rem auto;
   border-bottom: 10px solid gray;
   text-align: center;
+  width: max-content;
 }
 
 .second-section {
@@ -250,7 +251,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-grow: 2;
+  flex-grow: 1;
   margin: 3rem;
 }
 
@@ -260,7 +261,7 @@ body {
   align-items: center;
   flex-grow: 3;
   background-color: #999;
-  margin: 3rem;
+  margin: 1rem;
   text-align: center;
   border-radius: 0.5rem;
 }
@@ -303,6 +304,11 @@ body {
   align-items: center;
   background-color: #333;
   text-align: center;
+}
+
+.border-radius-1rem {
+  border-radius: 1rem;
+  margin: 5rem;
 }
 
 .text-color-white {
@@ -463,4 +469,20 @@ body {
 
 .padding-top-8rem {
   padding-top: 8rem;
+}
+
+.width-38-percentage {
+  width: 38%;
+}
+
+.width-50-percentage {
+  width: 50%;
+}
+
+.width-45-percentage {
+  width: 45%;
+}
+
+.border-radius-100-percentage {
+  border-radius: 100%;
 }
