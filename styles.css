@@ -393,3 +393,74 @@ body {
 .h6-font-size {
   font-size: 0.01rem;
 }
+
+.position-absolute {
+  position: absolute;
+  width: 100%;
+}
+
+.title-page {
+  top: 60px;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+}
+
+.title-text {
+  line-height: 2px;
+  display: inline;
+  position: relative;
+  font-weight: bold;
+  top: 1.5rem;
+  color: white;
+}
+
+.title-page-icon-button {
+  display: flex;
+  position: absolute;
+  top: 0.5rem;
+  left: 73rem;
+  top: 1.5rem;
+}
+
+.White-square {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: white;
+  border-radius: 0.3rem;
+}
+
+.button-title {
+  margin-left: 1rem;
+  background-color: white;
+  border-radius: 0.3rem;
+}
+
+.picture-profile-firts-section {
+  width: 6rem;
+}
+
+.title-next-to-the-main-image {
+  margin-left: 2rem;
+}
+
+.rectangle-section-number-one {
+  padding: 4rem;
+  flex-grow: 1;
+}
+
+.background-color-999 {
+  background-color: #999;
+}
+
+.background-color-666 {
+  background-color: #666;
+}
+
+.padding-2rem {
+  padding: 2rem;
+}
+
+.padding-top-8rem {
+  padding-top: 8rem;
+}
